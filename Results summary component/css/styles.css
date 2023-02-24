@@ -1,0 +1,172 @@
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    letter-spacing: 3px;
+    position: relative;
+}
+
+button {
+    margin-top: 40px;
+    border: none;
+    outline: none;
+    width: 250px;
+    height: 40px;
+    border-radius: 30px;
+    color: white;
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-color: rgb(48, 59, 89, 1);
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.result-summary-component {
+    width: 600px;
+    height: 447px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 25px rgb(199, 199, 199);
+    border-radius: 25px 25px 25px 25px;
+    display: table-row;
+    position: absolute;
+    left: 30%;
+    margin-top: 10%;
+}
+
+.result-component {
+    text-align: center;
+    width: 300px;
+    height: 430px;
+    background-image: linear-gradient(rgb(101, 65, 253, 1), rgb(52, 46, 234, 1));
+    border-radius: 25px;
+    display: table-cell;
+}
+
+.summary-component {
+    text-align: center;
+    width: 300px;
+    height: 425px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    display: table-cell;
+}
+
+.score {
+    background-image: linear-gradient(rgb(76, 34, 201), rgb(71, 52, 240, 1));
+    width: 150px;
+    height: 150px;
+    margin-left: 25%;
+    border-radius: 100%;
+}
+
+.summary {
+    color: rgb(48, 53, 82, 1);
+    text-align: left;
+    padding-left: 20px;
+}
+
+.stats-row {
+    padding-top: 3px;
+}
+
+.stats-cells {
+    margin: 10px 25px 0px 25px;
+    padding: 12px 0px 12px 0px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 10px;
+    height: 30px;
+}
+
+.skill {
+    letter-spacing: 0px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.reaction {
+    color: rgb(255, 85, 85);
+}
+
+.memory {
+    color: rgb(255, 178, 30);
+}
+
+.verbal {
+    color: rgb(0, 187, 143);
+}
+
+.visual {
+    color: rgb(17, 37, 214);
+}
+
+.title-score {
+    padding-left: 10px;
+    float: left;
+}
+
+.scores {
+    padding-top: 5px;
+    padding-right: 10px;
+    float: right;
+}
+
+.scores-nominator {
+    color: rgb(48, 59, 89, 1);
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.scores-denominator {
+    color: rgb(168, 168, 168);
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.cells-reaction {
+    background-color: rgb(252, 240, 240);
+}
+
+.cells-memory {
+    background-color: rgb(248, 243, 233);
+}
+
+.cells-verbal {
+    background-color: rgb(236, 247, 242);
+}
+
+.cells-visual {
+    background-color: rgb(227, 245, 243);
+}
+
+h1 {
+    color: white;
+    padding-top: 35px;
+    font-size:50px;
+    margin-bottom: 0;
+}
+
+h2 {
+    color: white;
+    padding-top: 20px;
+}
+
+h3 {
+    color: rgb(205, 197, 255, 1);
+    padding-top: 20px;
+}
+
+h4 {
+    color: rgb(182, 181, 253, 1);
+    padding-left: 60px;
+    padding-right: 60px;
+    line-height: 1.2;
+    font-size: 15px;
+}
+
+h5 {
+    margin: 0;
+    text-align: left;
+}
+
+p {
+    color: rgb(143, 122, 255, 1);
+    margin-top: 10px;
+    letter-spacing: 0px;
+    font-size: 14px;
+}
