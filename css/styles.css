@@ -9,12 +9,13 @@ button {
     border: none;
     outline: none;
     width: 250px;
-    height: 40px;
+    height: 45px;
     border-radius: 30px;
     color: white;
     font-family: 'Hanken Grotesk', sans-serif;
     background-color: rgb(48, 59, 89, 1);
     font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 14px;
 }
 
 button:hover {
@@ -36,7 +37,7 @@ button:hover {
 .result-component {
     text-align: center;
     width: 300px;
-    height: 430px;
+    height: 447px;
     background-image: linear-gradient(rgb(101, 65, 253, 1), rgb(52, 46, 234, 1));
     border-radius: 25px;
     display: table-cell;
@@ -113,14 +114,16 @@ button:hover {
 
 .scores-nominator {
     color: rgb(48, 59, 89, 1);
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 13px;
+    letter-spacing: 1px;
 }
 
 .scores-denominator {
     color: rgb(168, 168, 168);
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 13px;
+    letter-spacing: 1px;
 }
 
 .cells-reaction {
@@ -132,15 +135,20 @@ button:hover {
 }
 
 .cells-verbal {
-    background-color: rgb(236, 247, 242);
+    background-color: rgb(235, 245, 241);
 }
 
 .cells-visual {
-    background-color: rgb(227, 245, 243);
+    background-color: rgb(235, 237, 247);
 }
 
 .icon-div {
     margin-top: 6px;
+    float: left;
+}
+
+.icon-div-title {
+    margin-top: 5px;
     float: left;
 }
 
@@ -162,11 +170,13 @@ h3 {
 }
 
 h4 {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 5px;
     color: rgb(182, 181, 253, 1);
-    padding-left: 60px;
-    padding-right: 60px;
     line-height: 1.2;
-    font-size: 15px;
+    font-size: 12px;
+    max-width: 36ch;
 }
 
 h5 {
@@ -176,7 +186,7 @@ h5 {
 
 p {
     color: rgb(143, 122, 255, 1);
-    margin-top: 10px;
+    margin-top: 0px;
     letter-spacing: 0px;
     font-size: 14px;
 }
